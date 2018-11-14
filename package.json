@@ -1,0 +1,17 @@
+{
+  "name": "tweet-scraper",
+  "version": "1.0.0",
+  "description": "Grab recent tweets about a certain topic",
+  "main": "tweetStream.js",
+  "scripts": {
+    "latestTweets": "node src/latestTweets",
+    "tweetStream": "node src/tweetStream"   
+  },
+  "author": "Arlind Bebja",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",   
+    "ntwitter": "^0.5.0", 
+    "twitter": "^1.7.1"
+  }
+}
